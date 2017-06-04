@@ -2,11 +2,11 @@
   "name": "react-app",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "dev": "webpack-dev-server --devtool eval --progress --colors --content-base public"
+    "dev": "webpack-dev-server --devtool eval --progress --colors --content-base app"
   },
   "author": "",
   "license": "ISC",
