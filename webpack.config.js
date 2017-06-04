@@ -4,7 +4,7 @@ var webpack = require('webpack');
 module.exports = {
     entry: ['webpack/hot/dev-server', path.resolve(__dirname, './app/main.js')],
     output: {
-        path: path.resolve(__dirname, './build'),
+        path: path.resolve(__dirname, './public'),
         filename: 'bundle.js'
     },
     devServer: {
