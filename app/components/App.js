@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Button } from 'antd';
+
 import logo from './logo.svg';
 
 let names = ['Alice', 'Emily', 'Kate'];
@@ -14,6 +16,7 @@ class ShoppingList extends React.Component {
           <li>WhatsApp</li>
           <li>Oculus</li>
         </ul>
+        <Button type="primary">Primary</Button>
       </div>
     );
   }

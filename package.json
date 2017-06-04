@@ -23,6 +23,7 @@
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "style-loader": "^0.18.1",
+    "transform-runtime": "0.0.0",
     "webpack": "^2.6.1",
     "webpack-dev-server": "^2.4.5"
   }
