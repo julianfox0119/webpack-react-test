@@ -16,7 +16,7 @@ require('./css/App.css');
 ReactDOM.render((
      <BrowserRouter>
         <div>
-            <Route path="/" component={App}/>
+            <Route exact path="/" component={App}/>
             <Route path="/list" component={ListView}/>
             <Route path="/single" component={SingleView}/>
         </div>        
