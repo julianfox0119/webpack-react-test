@@ -26,13 +26,13 @@ class Nav extends Component {
         mode="horizontal"
       >
         <Menu.Item key="home">
-          <Icon type="appstore" /><Link to="/">Home</Link>
+          <Link to="/"><Icon type="appstore" />Home</Link>
         </Menu.Item>
         <Menu.Item key="list">
-          <Icon type="appstore" /><Link to="/list">List</Link>
+          <Link to="/list"><Icon type="appstore" />List</Link>
         </Menu.Item>
         <Menu.Item key="single">
-          <Icon type="appstore" /><Link to="/single">Single</Link>
+          <Link to="/single"><Icon type="appstore" />Single</Link>
         </Menu.Item>
       </Menu>
     );
