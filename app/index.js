@@ -10,12 +10,17 @@ import App from './components/App';
 import ListView from './components/List';
 import SingleView from './components/Single';
 
+import Header from './components/common/Header';
+import Nav from './components/common/Nav';
+
 require('./css/index.css');
 require('./css/App.css');
 
 ReactDOM.render((
      <BrowserRouter>
-        <div>
+        <div className="App">
+            <Header />
+            <Nav />
             <Route exact path="/" component={App}/>
             <Route path="/list" component={ListView}/>
             <Route path="/single" component={SingleView}/>

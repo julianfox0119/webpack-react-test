@@ -1,15 +1,10 @@
 import React, { Component } from 'react';
 import { Button } from 'antd';
 
-import Header from './common/Header';
-import Nav from './common/Nav';
-
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Header />
-        <Nav />
+      <div >
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>       
