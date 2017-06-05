@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Button } from 'antd';
 
-import Header from './Header';
-import Nav from './Nav';
+import Header from './common/Header';
+import Nav from './common/Nav';
 
 class ListView extends React.Component {
 
