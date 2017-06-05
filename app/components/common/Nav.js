@@ -21,7 +21,8 @@ class Nav extends Component {
   render() {
   
     return (
-      <Menu 
+      <Menu onClick={this.handleClick.bind(this)}
+        selectedKeys={[this.state.current]}
         mode="horizontal"
       >
         <Menu.Item key="home">
