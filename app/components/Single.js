@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { Button } from 'antd';
 
+import Header from './Header';
+import Nav from './Nav';
+
 class CustomTextInput extends React.Component {
 
   constructor(props) {
@@ -70,8 +73,9 @@ class SingleView extends React.Component {
 
   render() {
     return (
-        <div>
-            <CustomTextInput />
+        <div className = "App">
+            <Header />
+            <Nav />
             <Clock />
         </div>      
     );
