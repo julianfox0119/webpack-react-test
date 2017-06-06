@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Button } from 'antd';
 
+import Counter from './Counter';
+
 class ListView extends React.Component {
 
   render() {
@@ -14,6 +16,7 @@ class ListView extends React.Component {
             <li>Oculus</li>
             </ul>
             <Button type="primary">Primary</Button>
+            <Counter />   
         </div>
         
     );
